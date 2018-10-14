@@ -16,13 +16,28 @@ your fork to your local machine. Complete the rest of these exercises on your ma
 In other words, try to do these without the aid of your broswer or `docstrings`.
 1. Provide the expected output, if error, put "error".  
     a. len({1, 1, 1.0, 1j, 'hello'})  
+    Output: 0
+    
     b. len((1, 1, 1.0, 1j, 'hello'))  
+    Output: 5
+    
     c. len([1, 1, 1.0, 1j, 'hello'])  
+    Output: 5
+    
     d. z = {1, 4.0, 'no'}; z[0]  
-    e. z = (1, 4.0, 'no'); z[0] = 9  
+    Output: 1
+    
+    e. z = (1, 4.0, 'no'); z[0] = 9
+    Output: error
+    
     f. z = [1, 4.0, 'no']; z[0] = 9  
-    g. (e) demonstrates what property of tuples?  
-    h. (f) demonstrates what property of lists?  
+    **New list value [9, 4.0, 'no'] pointing at object z in stack, but no output.
+    
+    g. (e) demonstrates what property of sets?  
+    Sets are immutable. 
+    
+    h. (f) demonstrates what property of lists?
+    Lists are mutable. 
     
 ## Problem 3
 Using the conda environment from `Problem 1`, start a jupyter client-server application. Use

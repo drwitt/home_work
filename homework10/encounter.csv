@@ -1,0 +1,11 @@
+﻿encounterid,patientid,encounterdate,encounterphysician,encounterreason,billingamount
+1,1,3/6/63,1,checkup,99.32
+2,3,5/4/82,4,cough,100.01
+3,3,5/8/83,4,checkup,43.76
+4,3,6/7/89,3,flu,553.23
+5,3,7/1/89,3,dyspnea,93.21
+6,5,10/5/98,3,back pain,54.23
+7,5,11/9/99,2,checkup,321.46
+8,3,10/21/92,3,headache,72.11
+9,1,11/2/85,2,fever,87.65
+10,3,11/15/93,1,stomach ache,25.78

@@ -9,6 +9,7 @@ __pycache__/
 *.so
 .idea/
 solution.py
+database_cmds.md
 
 # Distribution / packaging
 .Python
